@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+body {
+    background: black !important;
+    font-family: 'Sen', sans-serif !important;
+}
+
+h1 {
+    font-size: 74px !important;
+}
+.navbar-section {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.navbar-section a{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.contact-highlight:hover{
+    background-color: blue;
+    
+}
+
+.custom-nav a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.contact-highlight {
+    background: #5221e6;
+}
+
+
+.working .sub-head {
+    font-size: 120px;
+}
+.working .sub-head-1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.working h2 {
+    font-size: 50px;
+}
+.working .text-big{
+    font-size: 15px;
+}
+.green-color {
+    color: #3cc74e;
+}
+
+.article{
+    align-items: center;
+}
+
+.article .d-flex div:first-child {
+    background: #fff3e4;
+}
+.article .custom-btn ,.instagram .custom-btn{
+    background: none;
+    border: none;
+    border-bottom: 2px solid;
+    padding: 10px;
+}
+.article h2,.instagram h2,.skillset h2,.contact h2{
+    font-size: 3.5em;
+    color:#181823;
+    
+}
+.article p,.instagram p, .contact p {
+    font-size: 20px;
+    opacity: 0.6;
+    
+    
+}
+
+.skillset .parag{
+    
+    font-size: 15px;
+    opacity: 0.6;
+}
+.skillset img{
+    width: 10%;
+}
+.slider .d-flex div {
+    border: 1px solid;
+}
+
+.instagram{
+    background-color:rgb(251, 228, 255);
+}
+
+.article img, .instagram img{
+    height: 90vh;
+}
+.instagram .custom-btn, .article .custom-btn{
+    width: 150px;
+    text-decoration: none;
+}
+.instagram .custom-btn:hover, .article .custom-btn:hover{
+    background-color: blue;
+    overflow:hidden;
+    width: 180px;
+    border: 3px solid blue ; 
+}
+
+
+.contact .d-flex{
+    font-size: 18px;
+}
+.contact textarea .form-control{
+    color: black;
+}
+
+.about{
+    background-color: hsl(240deg 19% 12%);
+}
+
+.about .footer-link{
+    color: white;
+    font-size: 21px;
+}
+
+.about .footer-link:hover{
+    color: turquoise;
+}
+
+.contact .form-control{
+    border: black;
+    
+}
+
+.card{
+    background-color: black !important;
+    border-radius: 0 !important;
+    color: white;
+    transition: 0.5s all ease-in-out;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.card-body,.card-header{
+    background-color: #181823 !important;
+}
+.card-header{
+    width: 100%;
+}
+.highlight-text{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.work{
+    padding: 0px 6rem !important;
+    height: 100%;
+    
+}
+.work-image{
+    height: 350px !important;
+}
+.view-more{
+    display: grid;
+    place-items: center;
+    background-color: black;
+    border: 1px solid blue;
+    height: 80px;
+    width: 40%;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 478px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    
+    .navbar-section {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+  
+
+    h1 {
+        font-size: 40px !important;
+    }
+    .article img {
+        top: auto;
+    }
+    .article {
+        height: auto;
+    }
+    
+
+    
+}
+
+
